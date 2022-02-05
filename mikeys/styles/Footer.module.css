@@ -7,6 +7,7 @@
 .item {
     flex: 1;
     position: relative;
+    display: flex;
 }
 
 .item:last-child {

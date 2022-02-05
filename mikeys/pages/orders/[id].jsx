@@ -6,8 +6,8 @@ const Order = () => {
 
     const statusClass = (index) => {
         if (index - status < 1) return styles.done
-        if (index-status === 1) return styles.inProgress 
-        if (index-status > 1) return styles.undone
+        if (index - status === 1) return styles.inProgress 
+        if (index - status > 1) return styles.undone
     };
     return (
         <div className={styles.container}>
@@ -30,13 +30,10 @@ const Order = () => {
                                 </span>
                             </td>
                             <td>
-                                <span className={style.address}>Elton st. 212-33 LA</span>
+                                <span className={styles.address}>Elton st. 212-33 LA</span>
                             </td>
                             <td>
-                                <span className={style.quantity}>2</span>
-                            </td>
-                            <td>
-                                <span className={style.total}>$39.80</span>
+                                <span className={styles.total}>$39.80</span>
                             </td>
                         </tr>
                     </table>

@@ -29,13 +29,13 @@ const Cart = () => {
                             </span>
                         </td>
                         <td>
-                            <span className={style.price}>$19.90</span>
+                            <span className={styles.price}>$19.90</span>
                         </td>
                         <td>
-                            <span className={style.quantity}>2</span>
+                            <span className={styles.quantity}>2</span>
                         </td>
                         <td>
-                            <span className={style.total}>$39.80</span>
+                            <span className={styles.total}>$39.80</span>
                         </td>
                     </tr>
                     <tr className={styles.tr}>
@@ -53,13 +53,13 @@ const Cart = () => {
                             </span>
                         </td>
                         <td>
-                            <span className={style.price}>$19.90</span>
+                            <span className={styles.price}>$19.90</span>
                         </td>
                         <td>
-                            <span className={style.quantity}>2</span>
+                            <span className={styles.quantity}>2</span>
                         </td>
                         <td>
-                            <span className={style.total}>$39.80</span>
+                            <span className={styles.total}>$39.80</span>
                         </td>
                     </tr>
                 </table>
