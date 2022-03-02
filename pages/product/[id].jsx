@@ -94,7 +94,7 @@ const Product = ({pizza}) => {
 };
 
 export const getServerSideProps = async ({params}) => {
-    const res = await axios.get(`https://3000-red-starfish-s71qliwx.ws-us33.gitpod.io/api/products/${params.id}`);
+    const res = await axios.get(`${process.env.NEXT_PUBLIC_ENV_URL}/api/products/${params.id}`);
     return {
       props: {
         pizza: res.data
